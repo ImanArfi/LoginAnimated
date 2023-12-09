@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portofolio</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="form-container sign-up">
+        <form>
+          <h1>Create Account</h1>
+          <div class="user-icon">
+            <a href="#" class="icon"><i data-feather="github"></i></a>
+            <a href="#" class="icon"><i data-feather="twitter"></i></a>
+            <a href="#" class="icon"><i data-feather="facebook"></i></a>
+          </div>
+          <span>
+            or use your e-mail for register
+            <input type="name" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button>Sign up</button>
+          </span>
+        </form>
+      </div>
+      <div class="form-container sign-in">
+        <form>
+          <h1>Sign in</h1>
+          <div class="user-icon">
+            <a href="#" class="icon"><i data-feather="github"></i></a>
+            <a href="#" class="icon"><i data-feather="twitter"></i></a>
+            <a href="#" class="icon"><i data-feather="facebook"></i></a>
+          </div>
+          <span>
+            or use your e-mail password
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <a href="#">Forgot Password</a>
+            <button>Sign in</button>
+          </span>
+        </form>
+      </div>
+      <div class="toggle-container">
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <h1>Welcome back!</h1>
+            <p>Enter your personal details to use all of site features</p>
+            <button class="hiden" id="login">Sign in</button>
+          </div>
+          <div class="toggle-panel toggle-right">
+            <h1>Hello, Friends!</h1>
+            <p>
+              Register with your personal details to use all of site features
+            </p>
+            <button class="hiden" id="register">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- icon -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
